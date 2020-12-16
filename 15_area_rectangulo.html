@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let anchuraTexto;
+    let alturaTexto;
+
+    anchuraTexto = prompt ("Anchura del rectángulo");
+    alturaTexto = prompt ("Altura del rectángulo");
+
+    // let anchuraTexto = prompt ("Anchura del rectángulo");
+    // let alturaTexto = prompt ("Altura del rectángulo"); 
+    // de esta manera directamente declarar las variables y el valor
+
+    console.log(anchuraTexto);
+    console.log(alturaTexto);
+
+    anchuraTexto = parseInt(anchuraTexto);
+    alturaTexto = parseInt (alturaTexto);
+    
+    // let areaRectangula = anchuraTexto * alturaTexto
+    // console.log(areaRectangulo);
+    // usar otra variable para el resultado
+
+    console.log("El área del rectángulo es " + (anchuraTexto * alturaTexto))
